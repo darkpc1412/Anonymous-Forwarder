@@ -1,0 +1,29 @@
+{
+    "name": "Anonymous Sender Bot",
+    "description": "Advanced anonymous forwarder bot with caption editor.",
+    "keywords": [
+        "CaptionEditor",
+        "Anonymousforwarder",
+        "Telegram Bot",
+        "SDBots"
+    ],
+    "repository": "https://github.com/DARKEMPIRESL/Anonymous-Forwarder",
+    "logo": "https://te.legra.ph/file/52c3850adfd1e693dcdda.jpg",
+    "success_url": "https://t.me/SLBotOfficial",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {"url": "heroku/python"}
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
