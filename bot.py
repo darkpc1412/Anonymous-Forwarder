@@ -25,7 +25,7 @@ bottoken = None
 # start the bot
 print("Starting...")
 apiid = 6
-apihash = "b987260b884bca00d857b94c3bd337fa"
+apihash = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
 try:
     bottoken = config("BOT_TOKEN")
 except:
