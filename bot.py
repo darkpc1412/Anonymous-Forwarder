@@ -27,7 +27,7 @@ print("Starting...")
 apiid = 20781152
 apihash = "0781163b5caac00db3268444e688d9e7"
 try:
-    bottoken = config("BOT_TOKEN")
+    bottoken = config("6799627176:AAEb7ITggFCsQw47YEMt2l5e66Lrgq-BASQ")
 except:
     print("Environment vars are missing!")
     print("Bot is quiting...")
